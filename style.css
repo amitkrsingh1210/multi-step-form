@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: #eef5ff;
+}
+.first-card{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    
+}
+.second-card{
+    max-width: 940px;
+    background-color: white;
+    border-radius: 15px; 
+    padding: 1rem;
+    display: flex;
+}  
+.info-section{
+    margin:2rem 4rem;
+}
+.info-section h1{
+    color: rgb(1, 42, 86);
+    font-size: 2.5rem;
+}
+.info-section p{
+    font-size: 1.25rem;
+    color: rgb(162, 162, 170);
+}
+.image-card {
+    width: 270px;
+    background-image: url('/assets/bg-sidebar-desktop.svg');  
+}
+input{
+    width:400px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+label{
+    color: rgb(1, 42, 86);
+    font-size:1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+span{
+    background-color: rgb(23, 74, 139);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    top: 3rem;
+    left: 20rem;
+}
+#first-step{
+    text-transform: uppercase;
+    padding: 3rem;
+}
+#first-step a{
+    display: inline-block;
+    text-decoration: none;
+    padding:10px;
+    background-color: rgb(190, 226, 252);
+    border-radius: 18px;
+}
+#first-step p{
+    color: #fff;
+
+}
+#step-1{
+    opacity: 0.7;
+}
